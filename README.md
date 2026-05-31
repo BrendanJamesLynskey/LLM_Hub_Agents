@@ -15,6 +15,7 @@ How LLM agents actually work, multi-agent coordination patterns, and the framewo
 | 05 | [OpenClaw Guide](https://github.com/BrendanJamesLynskey/OpenClaw_Guide) | live | Deep dive into the open-source gateway connecting AI coding agents to any messaging platform. |
 | 06 | [ReAct Math Agent](https://github.com/BrendanJamesLynskey/ReAct_math_agent) | live | Browser-based ReAct agent that solves maths problems step-by-step with a local Ollama LLM, visualising the reasoning loop. |
 | 07 | [Research Digest Agent](https://github.com/BrendanJamesLynskey/Research_Digest_Agent) | live | Autonomous research agent that searches the web, reads sources, and produces structured markdown digests (Claude or Ollama). |
+| 08 | [Pydantic AI Deep Dive](https://github.com/BrendanJamesLynskey/Pydantic_AI_Guide) | live | In-depth visual guide to Pydantic AI &mdash; type-safe agents, structured outputs, dependency injection, tools &amp; `ModelRetry`, streaming, Pydantic Graph, durable execution, MCP, Logfire observability and evals. |
 
 ## Where this fits
 
