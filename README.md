@@ -17,6 +17,10 @@ How LLM agents actually work, multi-agent coordination patterns, and the framewo
 | 07 | [Research Digest Agent](https://github.com/BrendanJamesLynskey/Research_Digest_Agent) | live | Autonomous research agent that searches the web, reads sources, and produces structured markdown digests (Claude or Ollama). |
 | 08 | [Pydantic AI Deep Dive](https://github.com/BrendanJamesLynskey/Pydantic_AI_Guide) | live | In-depth visual guide to Pydantic AI &mdash; type-safe agents, structured outputs, dependency injection, tools &amp; `ModelRetry`, streaming, Pydantic Graph, durable execution, MCP, Logfire observability and evals. |
 
+## Related
+
+**Related site:** [Agent Harnesses Explained](https://agent-harnesses-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-harnesses-explained)) is an interactive companion to this series: the harness that turns a chat model into an agent, in 10 chapters, each built around an animation computed by a deterministic agent-loop simulator: the agent loop, tool calling (native calls vs ReAct text), the context window as a budget, prompt caching, permissions and the human in the loop, sub-agents, hooks and sandboxing, failure and recovery, the public coding-agent harnesses compared, and the cost and latency of a task. No live model is called; three recorded runs of a small open-weights model are replayed token for token.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
