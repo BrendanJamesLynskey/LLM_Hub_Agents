@@ -23,6 +23,8 @@ How LLM agents actually work, multi-agent coordination patterns, and the framewo
 
 **Related site:** [Agent Protocols Explained](https://agent-protocols-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-protocols-explained)), the second agent companion site: how agents talk to tools and to each other at the level of messages on the wire, in 9 chapters, each built around an animation: why a protocol, JSON-RPC and the life cycle of a session, tools, resources and prompts, transports, sampling and elicitation, OAuth 2.1 authorisation, gateways and composition, agent to agent (A2A) and protocol security. Every message is sent by a deterministic simulator's protocol state machines and checked against the official MCP and A2A Python SDKs; no live model is called and no real connection is opened.
 
+**Related site:** [Agent Context Explained](https://agent-context-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-context-explained)), the third agent companion site: context engineering, measured, in 9 chapters, each built around an animation: the context window as working memory, lexical retrieval (BM25), dense retrieval, hybrid fusion and reranking, chunking, packing a token budget, compaction and summarisation, agent memory across sessions, and long context or retrieval. Every number is measured on a fixed, openly licensed corpus (6 SQuAD v1.1 articles and 200 of their questions) by a deterministic simulator; a small embedding model and a cross-encoder ran once, offline, and no live model is called.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
