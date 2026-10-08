@@ -21,6 +21,8 @@ How LLM agents actually work, multi-agent coordination patterns, and the framewo
 
 **Related site:** [Agent Harnesses Explained](https://agent-harnesses-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-harnesses-explained)) is an interactive companion to this series: the harness that turns a chat model into an agent, in 10 chapters, each built around an animation computed by a deterministic agent-loop simulator: the agent loop, tool calling (native calls vs ReAct text), the context window as a budget, prompt caching, permissions and the human in the loop, sub-agents, hooks and sandboxing, failure and recovery, the public coding-agent harnesses compared, and the cost and latency of a task. No live model is called; three recorded runs of a small open-weights model are replayed token for token.
 
+**Related site:** [Agent Protocols Explained](https://agent-protocols-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-protocols-explained)), the second agent companion site: how agents talk to tools and to each other at the level of messages on the wire, in 9 chapters, each built around an animation: why a protocol, JSON-RPC and the life cycle of a session, tools, resources and prompts, transports, sampling and elicitation, OAuth 2.1 authorisation, gateways and composition, agent to agent (A2A) and protocol security. Every message is sent by a deterministic simulator's protocol state machines and checked against the official MCP and A2A Python SDKs; no live model is called and no real connection is opened.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
