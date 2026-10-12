@@ -25,6 +25,8 @@ How LLM agents actually work, multi-agent coordination patterns, and the framewo
 
 **Related site:** [Agent Context Explained](https://agent-context-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-context-explained)), the third agent companion site: context engineering, measured, in 9 chapters, each built around an animation: the context window as working memory, lexical retrieval (BM25), dense retrieval, hybrid fusion and reranking, chunking, packing a token budget, compaction and summarisation, agent memory across sessions, and long context or retrieval. Every number is measured on a fixed, openly licensed corpus (6 SQuAD v1.1 articles and 200 of their questions) by a deterministic simulator; a small embedding model and a cross-encoder ran once, offline, and no live model is called.
 
+**Related site:** [Agent Orchestration Explained](https://agent-orchestration-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-orchestration-explained)), the fourth agent companion site: multi-step and multi-agent systems as discrete-event systems, in 9 chapters, each built around an animation: from a chain to a graph, state, channels and reducers, checkpoints and interrupts, durable execution, multi-agent patterns (supervisor, hierarchical, swarm, debate, map-reduce), fan-out under a rate limit, reliability, running at scale and choosing a pattern. The simulator's graph runtime is checked against real LangGraph 1.2.14, checkpoint by checkpoint; no live model is called.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
