@@ -27,6 +27,8 @@ How LLM agents actually work, multi-agent coordination patterns, and the framewo
 
 **Related site:** [Agent Orchestration Explained](https://agent-orchestration-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-orchestration-explained)), the fourth agent companion site: multi-step and multi-agent systems as discrete-event systems, in 9 chapters, each built around an animation: from a chain to a graph, state, channels and reducers, checkpoints and interrupts, durable execution, multi-agent patterns (supervisor, hierarchical, swarm, debate, map-reduce), fan-out under a rate limit, reliability, running at scale and choosing a pattern. The simulator's graph runtime is checked against real LangGraph 1.2.14, checkpoint by checkpoint; no live model is called.
 
+**Related site:** [Agent Evals Explained](https://agent-evals-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/agent-evals-explained)), the fifth agent companion site: how to tell whether an agent is good and how sure you can be, in 10 chapters, each built around an animation: the benchmarks from their papers, pass@k against pass^k, intervals and their coverage, paired comparisons, LLM judges and their biases, grading whole trajectories, one simulated model under sixteen harness configurations, contamination, and the cost of each point of success. No live model: every frame is computed by the evals module of [Agent_Loop_Sim](https://github.com/BrendanJamesLynskey/Agent_Loop_Sim), whose statistics are tested against scipy and statsmodels.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
