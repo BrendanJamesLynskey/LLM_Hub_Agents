@@ -1,3 +1,7 @@
+<!-- portfolio-strip:start (brief 40) -->
+<sub>**Brendan Lynskey** · [Portfolio home](https://brendanjameslynskey.github.io/) · [Interactive sites](https://brendanjameslynskey.github.io/#sites)</sub>
+<!-- portfolio-strip:end -->
+
 # Agents &amp; Orchestration
 
 How LLM agents actually work, multi-agent coordination patterns, and the framework landscape (LangGraph, CrewAI, AutoGen, OpenAI Agents SDK).
